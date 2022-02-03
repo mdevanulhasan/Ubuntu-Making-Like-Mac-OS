@@ -1,0 +1,36 @@
+For making our ubuntu os like a mac os, so we will follow some steps:
+
+1) we will extract our "McOS-CTLina-Gnome-1.3.2.tar.xz" & "Mc-OS-CTLina-Gnome-Dark-1.3.2.tar.xz" files and copy this two folder and paste it under the
+computer/usr/share/themes folder
+resource (https://www.gnome-look.org/p/1241688/)(download above two items)
+
+2) then we will extract our "Cupertino-Catalina.tar.xz" file and copy this folder and paste it under the
+computer/usr/share/icons folder
+resource (https://www.gnome-look.org/p/1102582/)(download above one item)
+
+3) then we will extract our "mcOS11-Shell.zip" & "mcOS11-Shell-Dark.zip" files and go to filemanager>home>switch on "show hidden files" and create
+".themes" folder and copy this two folders and paste here in the ".themes"
+folder.
+resource (https://www.gnome-look.org/p/1220826/)(download above two items)
+
+4) here we will reload our ".themes" folder
+
+5) now we will go to tweak tool>"Appearance" and select:
+applications: Mc-OS-CTina-Gnome-Dark-1.3.2
+icons: Cupertino-Catalina
+shell: McOS-CTLina-Gnome-1.3.2/McOS-CTLina-Gnome-Dark-1.3.2
+
+6) open tweak tool and go to "Extensions" and check the button:
+Desktop icons(here click settings and we can uncheck 2nd & 3rd option),
+ubuntu dock,
+user themes.
+
+7) open tweak tool and go to "Window Titlebars" and select placement "left".
+
+============== It's look like boom. =============
+
+[ Important Note: if we can't copy or paste any folder or file to any other folder,so we will open our terminal and give a command: 
+sudo chmod a+rwx /path/to/file ]
+
+learnt from (https://www.youtube.com/watch?v=ZerCpEihkE8)
+
